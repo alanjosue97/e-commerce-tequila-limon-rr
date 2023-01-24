@@ -10,9 +10,9 @@ import Products from "../page/Products/Products";
 const Layout = () =>{
     return(
       <div className='App'>
-      <Footer/>
+      <Navbar />
       <Outlet/>
-      <Navbar/>
+      <Footer/>
      
       </div>
     )
