@@ -1,0 +1,63 @@
+.navbar {
+    height: 80px;
+
+    .wrapper{
+        padding: 10px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .item{
+            display: center;
+            align-items: center;
+            font-size: 18px;
+
+        }
+
+        .homename{
+            color: rgb(0, 140, 255);
+            
+        }
+        .left{
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        } 
+        .center{
+            font-size: 30px;           
+        } 
+        .right{
+            display: flex;
+            align-items: center;
+            gap: 25px;
+          
+         .icon{
+            display: flex;
+            gap: 25px;
+            color: #777;
+            cursor: pointer;
+
+            .carIcon{
+                position: relative;
+                
+                span{
+                    font-size: 12px;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    background-color: #2879fe;
+                    color: white;
+                    position: absolute;
+                    right: -10px;
+                    top: -10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+            }
+         }
+
+
+        }
+    }
+}
